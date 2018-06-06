@@ -10,8 +10,8 @@ namespace AccordionE
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MainPage();
+            MainPage = new NavigationPage(new AccordionViewPage());
+           // MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
